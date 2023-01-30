@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+  width: 40px;
+}
+
+.logo-title {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  color: #12022f;
+  margin-left: 10px;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.item-container {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  color: #12022f;
+  margin-right: 35px;
+}
